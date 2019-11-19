@@ -23,7 +23,7 @@ public class SchoolController {
     public String getAll(Model model) {
 
         // TODO : find all schools
-        model.addAttribute("school", repository.findAll());
+        model.addAttribute("schools", repository.findAll());
 
         return "schools";
     }
